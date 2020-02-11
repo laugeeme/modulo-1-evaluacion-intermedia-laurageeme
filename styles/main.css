@@ -1,0 +1,53 @@
+html {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.header-container {
+    position: fixed;
+}
+
+
+.logo-link {
+    width: 9.688rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
+
+
+.menu-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 1.25rem;
+    
+}
+
+
+.menu ul {
+    padding-left: 0;
+    margin: 0;
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    color: #4a4a4a;
+    
+
+}
+
