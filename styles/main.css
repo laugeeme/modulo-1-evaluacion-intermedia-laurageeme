@@ -1,3 +1,10 @@
+* {
+   margin: 0;
+   padding:0;
+   box-sizing: border-box; 
+    
+}
+
 html {
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
@@ -7,6 +14,8 @@ html {
 
 .header-container {
     position: fixed;
+    background-color: white;
+    padding-bottom: 0.813rem;
 }
 
 
@@ -48,6 +57,24 @@ html {
     font-size: 1rem;
     color: #4a4a4a;
     
-
 }
 
+
+
+.main-container{
+    background-color: #3CDBC0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.875rem;
+}
